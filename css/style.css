@@ -22,6 +22,18 @@ nav>ul>li {
   display: inline;
 }
 
+.menu {
+  margin-left: 5px;
+  margin-right: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  float: right;
+}
+
+.menu>li::marker {
+  color: #3A5683;
+}
+
 .navigation a {
   float: left;
   display: block;
@@ -53,11 +65,6 @@ h1 {
 p {
   margin-left: 5px;
   margin-right: 200px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.25rem;
-}
-
-.menu {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
 }
